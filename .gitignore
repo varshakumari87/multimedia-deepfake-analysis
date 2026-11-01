@@ -1,0 +1,38 @@
+# Python virtual environments
+models/safelens_env/
+safelens_env/
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node.js
+node_modules/
+dist/
+build/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# AI datasets
+dataset/
+datasets/
+data/
+
+# AI model weights
+*.pt
+*.pth
+*.h5
+*.onnx
+*.ckpt
+*.safetensors
+
+# Temporary files
+*.log
+*.zip
